@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  background-color: beige;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.inputField {
+  width: 100%;
+  height: 50px;
+  font-size: 36px;
+  text-align: right;
+  padding: 0 10px;
+  background-color: beige;
+  border: 1px solid beige;
+  border-radius: 5px;
+}
+
+.inputField:focus {
+  outline: none;
+  border: 1px solid beige;
+}
+
+.keypadContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  gap: 5px;
+}
+
+.keypadButton {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.keypadButton:hover {
+  background-color: #e0e0e0;
+}
+
+.keypadEqualsButton {
+  width: 125px;
+  height: 60px;
+  font-size: 24px;
+  color: white;
+  background-color: #4caf50;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.keypadEqualsButton:hover {
+  background-color: #45a049;
+}
+
+.keypadToolbar {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  color: white;
+  background-color: olivedrab;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.keypadToolbar:hover {
+  background-color: #7ca52b;
+}
