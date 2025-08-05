@@ -55,8 +55,8 @@ body {
   gap: 5px;
 }
 
-.keypadButton {
-  width: 60px;
+.keypadNumberButton {
+width: 60px;
   height: 60px;
   font-size: 24px;
   background-color: #fff;
@@ -65,7 +65,7 @@ body {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-.keypadButton:hover {
+.keypadNumberButton:hover {
   background-color: #e0e0e0;
 }
 
@@ -85,7 +85,7 @@ body {
   background-color: #45a049;
 }
 
-.keypadToolbar {
+.keypadOperatorButton {
   width: 60px;
   height: 60px;
   font-size: 24px;
@@ -97,6 +97,6 @@ body {
   transition: background-color 0.3s;
 }
 
-.keypadToolbar:hover {
+.keypadOperatorButton:hover {
   background-color: #7ca52b;
 }
